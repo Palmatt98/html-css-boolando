@@ -19,8 +19,44 @@ img{
 
 .col{
 	width: calc(100% / 3);
+	position: relative;
+
 }
 
+.price{
+	color: red;
+}
+.sostenibilita{
+	position: absolute;
+	bottom: 150px;
+	left: 60px;
+	color: white;
+	background-color: green;
+	padding: 0.5rem;
+}
+
+.discount{
+	background-color: red;
+	color: white ;
+	position: absolute;
+	bottom: 150px;
+	left: 0;
+	padding: 0.5rem;
+}
+
+.heart{
+	font-size: 2rem;
+	position: absolute;
+	top: 1rem;
+	right: 0;
+	background-color: white;
+	padding: 15px;
+
+}
+
+.price-discount{
+	text-decoration: line-through;
+}
 
 .flex{
 	display: flex;
@@ -40,7 +76,9 @@ img{
 .card:hover .img-1b{
 	display: block;
 }
+
 /* immagine 2 */
+
 .img-2a{
 	display: block;
 }
@@ -56,7 +94,9 @@ img{
 .card:hover .img-2b{
 	display: block;
 }
+
 /* immagine 3 */
+
 .img-3a{
 	display: block;
 }
@@ -72,7 +112,9 @@ img{
 .card:hover .img-3b{
 	display: block;
 }
+
 /* immagine 4 */
+
 .img-4a{
 	display: block;
 }
@@ -84,5 +126,35 @@ img{
 	display: none;
 }
 .card:hover .img-4b{
+	display: block;
+}
+
+/* immagine 5 */
+.img-5a{
+	display: block;
+}
+.img-5b{
+	display: none;
+}
+
+.card:hover .img-5a{
+	display: none;
+}
+
+.card:hover .img-5b{
+	display: block;
+}
+
+/* immagine6 */
+.img-6a{
+	display: block;
+}
+.img-6b{
+	display: none;
+}
+.card:hover .img-6a{
+	display: none;
+}
+.card:hover .img-6b{
 	display: block;
 }
