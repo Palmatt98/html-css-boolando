@@ -3,9 +3,27 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+body{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
 img{
 	max-width: 100%;
 	
+}
+.header{
+	padding-top: 10px;
+	height: 80px;
+	background-color: #ff6900;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 9999;
+}
+main{
+	padding-top: 10px;
 }
 
 .container{
@@ -45,13 +63,23 @@ img{
 }
 
 .heart{
+	height: 35px;
+	width: 35px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	font-size: 2rem;
 	position: absolute;
 	top: 1rem;
 	right: 0;
 	background-color: white;
 	padding: 15px;
+	/* fa attivare la manina andando sopra col mouse */
+	cursor: pointer;
 
+}
+.heart:hover{
+	color: red;
 }
 
 .price-discount{
